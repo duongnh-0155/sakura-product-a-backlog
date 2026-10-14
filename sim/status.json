@@ -1,0 +1,293 @@
+{
+ "total_leaf_swp": 4411.0,
+ "done_swp": 105.0,
+ "by_status": {
+  "Done": {
+   "items": 18,
+   "leaves": 17,
+   "swp": 105.0,
+   "hours": 227.0
+  },
+  "In Review": {
+   "items": 2,
+   "leaves": 2,
+   "swp": 21.0,
+   "hours": 44.0
+  },
+  "In Progress": {
+   "items": 6,
+   "leaves": 5,
+   "swp": 53.0,
+   "hours": 111.0
+  },
+  "Blocked": {
+   "items": 2,
+   "leaves": 2,
+   "swp": 16.0,
+   "hours": 34.0
+  },
+  "Todo": {
+   "items": 20,
+   "leaves": 18,
+   "swp": 161.0,
+   "hours": 340.0
+  },
+  "Backlog": {
+   "items": 341,
+   "leaves": 297,
+   "swp": 4055.0,
+   "hours": 8438.0
+  }
+ },
+ "sprints": {
+  "Sprint 01": {
+   "Done": 46.0,
+   "_n": 6
+  },
+  "Sprint 02": {
+   "Done": 59.0,
+   "_n": 21,
+   "Todo": 5.0,
+   "In Review": 21.0,
+   "In Progress": 53.0,
+   "Blocked": 16.0
+  },
+  "Sprint 03": {
+   "Todo": 156.0,
+   "_n": 17
+  },
+  "Sprint 04": {
+   "Backlog": 240.0,
+   "_n": 26
+  },
+  "Sprint 05": {
+   "Backlog": 175.0,
+   "_n": 15
+  },
+  "Sprint 06": {
+   "Backlog": 97.0,
+   "_n": 7
+  },
+  "Sprint 07": {
+   "Backlog": 130.0,
+   "_n": 16
+  },
+  "Sprint 08": {
+   "Backlog": 91.0,
+   "_n": 8
+  },
+  "Sprint 09": {
+   "Backlog": 120.0,
+   "_n": 13
+  },
+  "Sprint 10": {
+   "Backlog": 118.0,
+   "_n": 8
+  },
+  "Sprint 11": {
+   "Backlog": 165.0,
+   "_n": 13
+  },
+  "Sprint 12": {
+   "Backlog": 155.0,
+   "_n": 12
+  },
+  "Sprint 13": {
+   "Backlog": 149.0,
+   "_n": 9
+  },
+  "Sprint 14": {
+   "Backlog": 193.0,
+   "_n": 13
+  },
+  "Sprint 15": {
+   "Backlog": 131.0,
+   "_n": 9
+  },
+  "Sprint 16": {
+   "Backlog": 158.0,
+   "_n": 12
+  },
+  "Sprint 17": {
+   "Backlog": 235.0,
+   "_n": 18
+  },
+  "Sprint 18": {
+   "Backlog": 136.0,
+   "_n": 8
+  },
+  "Sprint 19": {
+   "Backlog": 183.0,
+   "_n": 14
+  },
+  "Sprint 20": {
+   "Backlog": 183.0,
+   "_n": 9
+  },
+  "Sprint 21": {
+   "Backlog": 186.0,
+   "_n": 13
+  },
+  "Sprint 22": {
+   "Backlog": 194.0,
+   "_n": 13
+  },
+  "Sprint 23": {
+   "Backlog": 238.0,
+   "_n": 15
+  },
+  "Sprint 24": {
+   "Backlog": 228.0,
+   "_n": 18
+  },
+  "Sprint 25": {
+   "Backlog": 186.0,
+   "_n": 8
+  },
+  "Sprint 26": {
+   "Backlog": 160.0,
+   "_n": 8
+  },
+  "Sprint 27": {
+   "Backlog": 154.0,
+   "_n": 9
+  },
+  "Sprint 28": {
+   "Backlog": 50.0,
+   "_n": 3
+  }
+ },
+ "release_plan": [
+  {
+   "sprint": "Sprint 01",
+   "planned_remaining": 4365
+  },
+  {
+   "sprint": "Sprint 02",
+   "planned_remaining": 4211
+  },
+  {
+   "sprint": "Sprint 03",
+   "planned_remaining": 4055
+  },
+  {
+   "sprint": "Sprint 04",
+   "planned_remaining": 3815
+  },
+  {
+   "sprint": "Sprint 05",
+   "planned_remaining": 3640
+  },
+  {
+   "sprint": "Sprint 06",
+   "planned_remaining": 3543
+  },
+  {
+   "sprint": "Sprint 07",
+   "planned_remaining": 3413
+  },
+  {
+   "sprint": "Sprint 08",
+   "planned_remaining": 3322
+  },
+  {
+   "sprint": "Sprint 09",
+   "planned_remaining": 3202
+  },
+  {
+   "sprint": "Sprint 10",
+   "planned_remaining": 3084
+  },
+  {
+   "sprint": "Sprint 11",
+   "planned_remaining": 2919
+  },
+  {
+   "sprint": "Sprint 12",
+   "planned_remaining": 2764
+  },
+  {
+   "sprint": "Sprint 13",
+   "planned_remaining": 2615
+  },
+  {
+   "sprint": "Sprint 14",
+   "planned_remaining": 2422
+  },
+  {
+   "sprint": "Sprint 15",
+   "planned_remaining": 2291
+  },
+  {
+   "sprint": "Sprint 16",
+   "planned_remaining": 2133
+  },
+  {
+   "sprint": "Sprint 17",
+   "planned_remaining": 1898
+  },
+  {
+   "sprint": "Sprint 18",
+   "planned_remaining": 1762
+  },
+  {
+   "sprint": "Sprint 19",
+   "planned_remaining": 1579
+  },
+  {
+   "sprint": "Sprint 20",
+   "planned_remaining": 1396
+  },
+  {
+   "sprint": "Sprint 21",
+   "planned_remaining": 1210
+  },
+  {
+   "sprint": "Sprint 22",
+   "planned_remaining": 1016
+  },
+  {
+   "sprint": "Sprint 23",
+   "planned_remaining": 778
+  },
+  {
+   "sprint": "Sprint 24",
+   "planned_remaining": 550
+  },
+  {
+   "sprint": "Sprint 25",
+   "planned_remaining": 364
+  },
+  {
+   "sprint": "Sprint 26",
+   "planned_remaining": 204
+  },
+  {
+   "sprint": "Sprint 27",
+   "planned_remaining": 50
+  },
+  {
+   "sprint": "Sprint 28",
+   "planned_remaining": 0
+  }
+ ],
+ "epics": {
+  "4": "In Progress",
+  "22": "Backlog",
+  "42": "In Progress",
+  "54": "In Progress",
+  "70": "In Progress",
+  "84": "In Progress",
+  "117": "In Progress",
+  "166": "In Progress",
+  "212": "In Progress",
+  "230": "Backlog",
+  "251": "Todo",
+  "278": "Backlog",
+  "291": "Todo",
+  "305": "Backlog",
+  "315": "Todo",
+  "352": "Todo"
+ },
+ "closed_issues": 18
+}

@@ -1,0 +1,16 @@
+{
+  "method": "quantile 20/40/60/80 of leaf raw scores (D-15)",
+  "n_leaves": 341,
+  "scope": [
+    3.0,
+    7.5,
+    12.5,
+    19.0
+  ],
+  "complexity": [
+    12.5,
+    18.0,
+    23.0,
+    29.0
+  ]
+}

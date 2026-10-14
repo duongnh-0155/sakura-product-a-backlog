@@ -1,0 +1,22 @@
+{
+ "status": "REVIEWED — 2026-10-14 担当者が AI 提案（R1〜R5・個別 4 件）を承認",
+ "k_hint_hours_per_swp": 2.17,
+ "class_rules": [
+  {"id": "R1", "match": {"type": "clarify"}, "rule": "questions_x2h",
+   "reason": "確認 Issue は画面・API・テーブルを持たず metrics では 1 SWP になる。1 問あたり約 2 時間（質問文の作成、打合せでの説明、回答の記録、Issue・PREMISE への反映）として SWP = fib_ceil(問数 × 2h ÷ k)。"},
+  {"id": "R2", "match": {"type": "fe", "swp_max": 2}, "rule": "floor", "value": 5,
+   "reason": "画面を分割した sub-issue は screens=1 以外が 0 になり 1〜2 SWP と出るが、項目 19〜38 の静的 UI でも 1.5 日程度かかる。下限 5（約 11h）。"},
+  {"id": "R3", "match": {"type": ["infra", "migration"], "swp_max": 2}, "rule": "floor", "value": 8,
+   "reason": "IaC・移行の作業は画面・API・テーブル数に現れず 1〜2 SWP になる。AWS アカウント・VPC・RDS 等の 1 構成要素は IaC＋検証で約 2 日。下限 8（約 17h）。"},
+  {"id": "R4", "match": {"type": "qa", "title_has": "受入テスト"}, "rule": "qa_by_scenarios",
+   "reason": "校正後は受入テストがほぼ全部 C5 に飽和する。シナリオ数（test_vectors）で段階を付け直す: 40 以上 = 34、20〜39 = 21、20 未満 = 13。制約付きの横断テストはデータ準備が重いので下限 21。"},
+  {"id": "R5", "match": {"type": "db", "swp_max": 2}, "rule": "floor", "value": 5,
+   "reason": "年度パーティション・複合 FK・トリガー・関数を含む DB 作業が 1〜2 SWP と出ている。pgTAP 込みで最低 1.5 日。下限 5。"}
+ ],
+ "overrides": {
+  "265": {"final_swp": 8, "reason": "SCR-019 明細グリッドのキーボード操作（1 行 10 秒以内の入力要件）は R2 の下限 5 では足りない。"},
+  "32":  {"final_swp": 8, "reason": "SCR-024 も同じ連続入力グリッド（60〜120 行/セッション）。SCR-019 と揃える。"},
+  "254": {"final_swp": 8, "reason": "資格 4 コード判定・数量引当・合計同期のトリガー群でテストベクトル 14 件。S1 は tables=2 のため過小。"},
+  "78":  {"final_swp": 5, "reason": "market_calendar の移行は 1 表・規則 1 件で R3 の下限 8 は過大。"}
+ }
+}

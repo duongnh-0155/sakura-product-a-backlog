@@ -1,0 +1,74 @@
+{
+ "Sprint 01": {
+  "committed_keys": [
+   "ACC-Q",
+   "MIG-Q",
+   "XC-01",
+   "XC-02",
+   "XC-03",
+   "XC-04",
+   "XC-10",
+   "XC-12",
+   "XC-Q"
+  ],
+  "committed_swp": 67,
+  "remaining": [
+   67,
+   67,
+   67,
+   67,
+   62,
+   60,
+   52,
+   47,
+   34,
+   34,
+   21
+  ],
+  "days": 10,
+  "done_swp": 46,
+  "start": "2026-11-09",
+  "end": "2026-11-20"
+ },
+ "Sprint 02": {
+  "committed_keys": [
+   "ACC-Q",
+   "AUD-01-a",
+   "AUD-01-b",
+   "AUD-08",
+   "DLV-Q",
+   "IAM-01",
+   "IAM-02-a",
+   "IAM-02-b",
+   "IAM-Q",
+   "INC-Q",
+   "INF-01",
+   "INF-02",
+   "INF-03",
+   "MIG-01",
+   "XC-02",
+   "XC-05",
+   "XC-06",
+   "XC-08",
+   "XC-11",
+   "XC-13",
+   "XC-Q"
+  ],
+  "committed_swp": 154,
+  "remaining": [
+   154,
+   154,
+   149,
+   134,
+   122,
+   116,
+   116,
+   108,
+   95
+  ],
+  "days": 10,
+  "done_swp": 59,
+  "start": "2026-11-23",
+  "end": "2026-12-04"
+ }
+}

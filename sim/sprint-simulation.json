@@ -1,0 +1,198 @@
+{
+ "note": "LAB-5 用の模擬データ。日付・進捗は架空。day = スプリント内の稼働日（1〜10）。",
+ "as_of": "2026-12-02",
+ "sprints": {
+  "Sprint 01": {
+   "start": "2026-11-09",
+   "end": "2026-11-20",
+   "days": 10,
+   "closed": true
+  },
+  "Sprint 02": {
+   "start": "2026-11-23",
+   "end": "2026-12-04",
+   "days": 10,
+   "closed": false,
+   "as_of_day": 8
+  }
+ },
+ "events": [
+  {
+   "key": "XC-03",
+   "sprint": "Sprint 01",
+   "status": "Done",
+   "day": 4
+  },
+  {
+   "key": "MIG-Q",
+   "sprint": "Sprint 01",
+   "status": "Done",
+   "day": 5
+  },
+  {
+   "key": "XC-12",
+   "sprint": "Sprint 01",
+   "status": "Done",
+   "day": 6
+  },
+  {
+   "key": "XC-04",
+   "sprint": "Sprint 01",
+   "status": "Done",
+   "day": 7
+  },
+  {
+   "key": "XC-01",
+   "sprint": "Sprint 01",
+   "status": "Done",
+   "day": 8
+  },
+  {
+   "key": "XC-10",
+   "sprint": "Sprint 01",
+   "status": "Done",
+   "day": 10
+  },
+  {
+   "key": "XC-02",
+   "sprint": "Sprint 01",
+   "status": "In Progress",
+   "carry_to": "Sprint 02",
+   "comment": "【Sprint 01 振り返り】進捗 約 70%。年度パーティションの境界が会計年度開始月（XC-Q の確認項目 XC-16、AS-010）に依存し、回答待ちのため複合 FK の DDL を確定できなかった。Sprint 02 へ持ち越し。"
+  },
+  {
+   "key": "XC-Q",
+   "sprint": "Sprint 01",
+   "status": "Blocked",
+   "carry_to": "Sprint 02",
+   "comment": "【Sprint 01 振り返り】XC-14・XC-15 は回答済み。XC-16（会計年度開始月）は発注者経理部の確認待ち。XC-02 のブロック要因。11/25 の定例で回答期限を合意する。"
+  },
+  {
+   "key": "ACC-Q",
+   "sprint": "Sprint 01",
+   "status": "In Progress",
+   "carry_to": "Sprint 02",
+   "comment": "【Sprint 01 振り返り】質問 5 件を 11/11 に送付。GAP-ACC-02（11:00 判定は SENT か ACK_OK か）は会計部門の打合せ待ち。Sprint 02 へ持ち越し。"
+  },
+  {
+   "key": "XC-Q",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 2
+  },
+  {
+   "key": "XC-06",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 2
+  },
+  {
+   "key": "XC-02",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 3
+  },
+  {
+   "key": "AUD-01-a",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 3
+  },
+  {
+   "key": "XC-08",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 4
+  },
+  {
+   "key": "AUD-01-b",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 4
+  },
+  {
+   "key": "INF-01",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 4
+  },
+  {
+   "key": "ACC-Q",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 5
+  },
+  {
+   "key": "XC-13",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 5
+  },
+  {
+   "key": "INF-02",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 7
+  },
+  {
+   "key": "IAM-01",
+   "sprint": "Sprint 02",
+   "status": "Done",
+   "day": 8
+  },
+  {
+   "key": "XC-05",
+   "sprint": "Sprint 02",
+   "status": "In Review"
+  },
+  {
+   "key": "IAM-02-a",
+   "sprint": "Sprint 02",
+   "status": "In Review"
+  },
+  {
+   "key": "XC-11",
+   "sprint": "Sprint 02",
+   "status": "In Progress",
+   "comment": "【12/02 時点】進捗 約 50%。8 ロール別ナビゲーションとセッション失効時の再ログイン導線が未完。Sprint 03 の画面 Issue（SCR-001/002/007）の前提のため、FE-1 がペアで支援する。"
+  },
+  {
+   "key": "IAM-02-b",
+   "sprint": "Sprint 02",
+   "status": "In Progress"
+  },
+  {
+   "key": "INF-03",
+   "sprint": "Sprint 02",
+   "status": "In Progress"
+  },
+  {
+   "key": "MIG-01",
+   "sprint": "Sprint 02",
+   "status": "Blocked",
+   "comment": "【12/02 時点】移行元データ（インベントリ・FY2026 Excel 原本）が未着のためプロファイリングに着手できない。MIG-Q の確認項目 MIG-10 で 12/11 までの提供を依頼済み。"
+  },
+  {
+   "key": "DLV-Q",
+   "sprint": "Sprint 02",
+   "status": "In Progress"
+  },
+  {
+   "key": "IAM-Q",
+   "sprint": "Sprint 02",
+   "status": "Blocked",
+   "comment": "【12/02 時点】IAM-29（社外アカウントの初期パスワード設定・再発行の経路）が未回答。社外 110 アカウントのログイン（SCR-002）の実装が Sprint 04 に迫っているため、12/03 定例でエスカレーションする。"
+  },
+  {
+   "key": "AUD-08",
+   "sprint": "Sprint 02",
+   "status": "Todo"
+  },
+  {
+   "key": "INC-Q",
+   "sprint": "Sprint 02",
+   "status": "In Progress",
+   "comment": "【12/02 時点】INC-18（DS-INC-EDGE-01 の原本値、AS-286）を 11/30 に送付、回答待ち。原本値が来ないと完納奨励金の計算テスト（#207 INC-16）の期待値が仮置きのままになる。現行計画では計算ロジック #173 INC-03 が Sprint 21（稼働後）に落ちており、Sprint 10 への前倒しを提案中（progress-report リスク 2）。前倒しに合わせ、回答期限を 2027-02-26 として合意を取る。"
+  }
+ ]
+}

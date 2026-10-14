@@ -1,0 +1,2633 @@
+{
+ "k": 2.037533512064343,
+ "k_basis": {
+  "lab1_hours": 3800,
+  "lab5_swp": 1865,
+  "anchor": {
+   "M03": "EPIC-TRD",
+   "M05B": "EPIC-OFF",
+   "M06": "EPIC-STL",
+   "M07": "EPIC-INC",
+   "M09": "EPIC-ACC",
+   "M12": "EPIC-MIG"
+  }
+ },
+ "plan": {
+  "EPIC-ACC": {
+   "Point": 191,
+   "Hours": 399,
+   "Sprint": null
+  },
+  "ACC-01": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-1"
+  },
+  "ACC-02": {
+   "Point": 50,
+   "Hours": 106,
+   "Sprint": "Sprint 24"
+  },
+  "ACC-02-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 24",
+   "担当": "BE-2"
+  },
+  "ACC-02-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 24",
+   "担当": "BE-3"
+  },
+  "ACC-02-c": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 24",
+   "担当": "BE-1"
+  },
+  "ACC-02-d": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 24",
+   "担当": "BE-3"
+  },
+  "ACC-02-e": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 24",
+   "担当": "BE-2"
+  },
+  "ACC-02-f": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 24",
+   "担当": "BE-2"
+  },
+  "ACC-03": {
+   "Point": 8,
+   "Hours": 18,
+   "Sprint": "Sprint 24"
+  },
+  "ACC-03-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 24",
+   "担当": "BE-1"
+  },
+  "ACC-03-b": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 24",
+   "担当": "BE-1"
+  },
+  "ACC-04": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 13",
+   "担当": "BE-2"
+  },
+  "ACC-05": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 25",
+   "担当": "BE-1"
+  },
+  "ACC-06": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 26",
+   "担当": "FE-1"
+  },
+  "ACC-08": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 26",
+   "担当": "QA-2"
+  },
+  "ACC-09": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 25",
+   "担当": "QA-2"
+  },
+  "ACC-Q": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 01",
+   "担当": "BrSE"
+  },
+  "EPIC-AUC": {
+   "Point": 186,
+   "Hours": 388,
+   "Sprint": null
+  },
+  "AUC-01": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 07",
+   "担当": "BE-2"
+  },
+  "AUC-02": {
+   "Point": 21,
+   "Hours": 44,
+   "Sprint": "Sprint 08"
+  },
+  "AUC-02-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 08",
+   "担当": "BE-1"
+  },
+  "AUC-02-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 07",
+   "担当": "QA-AUTO"
+  },
+  "AUC-03": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "BE-1"
+  },
+  "AUC-04": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 18"
+  },
+  "AUC-04-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 17",
+   "担当": "BE-3"
+  },
+  "AUC-04-b": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 18",
+   "担当": "BE-1"
+  },
+  "AUC-05": {
+   "Point": 21,
+   "Hours": 45,
+   "Sprint": "Sprint 19"
+  },
+  "AUC-05-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 19",
+   "担当": "FE-1"
+  },
+  "AUC-05-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 19",
+   "担当": "FE-2"
+  },
+  "AUC-05-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 19",
+   "担当": "FE-1"
+  },
+  "AUC-06": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "FE-2"
+  },
+  "AUC-07": {
+   "Point": 13,
+   "Hours": 28,
+   "Sprint": "Sprint 24"
+  },
+  "AUC-07-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 24",
+   "担当": "FE-1"
+  },
+  "AUC-07-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 24",
+   "担当": "FE-1"
+  },
+  "AUC-08": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 20",
+   "担当": "QA-1"
+  },
+  "AUC-09": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 19",
+   "担当": "QA-AUTO"
+  },
+  "AUC-Q": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 04",
+   "担当": "BrSE"
+  },
+  "EPIC-AUD": {
+   "Point": 63,
+   "Hours": 136,
+   "Sprint": null
+  },
+  "AUD-01": {
+   "Point": 3,
+   "Hours": 8,
+   "Sprint": "Sprint 02"
+  },
+  "AUD-01-a": {
+   "Point": 2,
+   "Hours": 5,
+   "Sprint": "Sprint 02",
+   "担当": "BE-3"
+  },
+  "AUD-01-b": {
+   "Point": 1,
+   "Hours": 3,
+   "Sprint": "Sprint 02",
+   "担当": "BE-2"
+  },
+  "AUD-02": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "BE-3"
+  },
+  "AUD-03": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "BE-3"
+  },
+  "AUD-04": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 11",
+   "担当": "BE-3"
+  },
+  "AUD-05": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "FE-1"
+  },
+  "AUD-06": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 04",
+   "担当": "FE-1"
+  },
+  "AUD-07": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "QA-2"
+  },
+  "AUD-08": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 02",
+   "担当": "QA-AUTO"
+  },
+  "AUD-Q": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 04",
+   "担当": "BrSE"
+  },
+  "EPIC-XC": {
+   "Point": 130,
+   "Hours": 275,
+   "Sprint": null
+  },
+  "XC-01": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 01",
+   "担当": "BE-1"
+  },
+  "XC-02": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 01",
+   "担当": "BE-2"
+  },
+  "XC-03": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 01",
+   "担当": "BE-3"
+  },
+  "XC-04": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 01",
+   "担当": "BE-3"
+  },
+  "XC-05": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 02",
+   "担当": "BE-3"
+  },
+  "XC-06": {
+   "Point": 2,
+   "Hours": 5,
+   "Sprint": "Sprint 02",
+   "担当": "BE-1"
+  },
+  "XC-07": {
+   "Point": 1,
+   "Hours": 3,
+   "Sprint": "Sprint 04",
+   "担当": "BE-2"
+  },
+  "XC-08": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 02",
+   "担当": "BE-2"
+  },
+  "XC-09": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "BE-3"
+  },
+  "XC-10": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 01",
+   "担当": "FE-1"
+  },
+  "XC-11": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 02",
+   "担当": "FE-2"
+  },
+  "XC-12": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 01",
+   "担当": "INFRA"
+  },
+  "XC-13": {
+   "Point": 1,
+   "Hours": 3,
+   "Sprint": "Sprint 02",
+   "担当": "QA-AUTO"
+  },
+  "XC-17": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 04",
+   "担当": "QA-1"
+  },
+  "XC-Q": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 01",
+   "担当": "BrSE"
+  },
+  "EPIC-MIG": {
+   "Point": 107,
+   "Hours": 226,
+   "Sprint": null
+  },
+  "MIG-01": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "BE-3"
+  },
+  "MIG-02": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 05",
+   "担当": "BE-1"
+  },
+  "MIG-03": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 05",
+   "担当": "BrSE"
+  },
+  "MIG-04": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 06",
+   "担当": "BE-2"
+  },
+  "MIG-05": {
+   "Point": 21,
+   "Hours": 45,
+   "Sprint": "Sprint 09"
+  },
+  "MIG-05-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "BE-1"
+  },
+  "MIG-05-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "BE-2"
+  },
+  "MIG-05-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 09",
+   "担当": "BE-3"
+  },
+  "MIG-06": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 09",
+   "担当": "BE-3"
+  },
+  "MIG-07": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "BE-3"
+  },
+  "MIG-08": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "QA-1"
+  },
+  "MIG-09": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "INFRA"
+  },
+  "MIG-Q": {
+   "Point": 2,
+   "Hours": 5,
+   "Sprint": "Sprint 01",
+   "担当": "BrSE"
+  },
+  "EPIC-DLV": {
+   "Point": 395,
+   "Hours": 821,
+   "Sprint": null
+  },
+  "DLV-01": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-3"
+  },
+  "DLV-02": {
+   "Point": 35,
+   "Hours": 73,
+   "Sprint": "Sprint 16"
+  },
+  "DLV-02-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 16",
+   "担当": "BE-1"
+  },
+  "DLV-02-b": {
+   "Point": 1,
+   "Hours": 3,
+   "Sprint": "Sprint 16",
+   "担当": "BE-1"
+  },
+  "DLV-02-c": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 16",
+   "担当": "QA-AUTO"
+  },
+  "DLV-03": {
+   "Point": 21,
+   "Hours": 44,
+   "Sprint": "Sprint 17"
+  },
+  "DLV-03-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 16",
+   "担当": "BE-1"
+  },
+  "DLV-03-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 17",
+   "担当": "QA-AUTO"
+  },
+  "DLV-04": {
+   "Point": 36,
+   "Hours": 75,
+   "Sprint": "Sprint 21"
+  },
+  "DLV-04-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 21",
+   "担当": "BE-3"
+  },
+  "DLV-04-b": {
+   "Point": 2,
+   "Hours": 5,
+   "Sprint": "Sprint 20",
+   "担当": "BE-2"
+  },
+  "DLV-04-c": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "QA-AUTO"
+  },
+  "DLV-05": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 18",
+   "担当": "FE-2"
+  },
+  "DLV-06": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 19",
+   "担当": "FE-1"
+  },
+  "DLV-07": {
+   "Point": 15,
+   "Hours": 33,
+   "Sprint": "Sprint 17"
+  },
+  "DLV-07-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 17",
+   "担当": "FE-1"
+  },
+  "DLV-07-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 17",
+   "担当": "FE-2"
+  },
+  "DLV-07-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 17",
+   "担当": "FE-1"
+  },
+  "DLV-08": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 25",
+   "担当": "FE-2"
+  },
+  "DLV-09": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 12",
+   "担当": "FE-2"
+  },
+  "DLV-10": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 13",
+   "担当": "FE-1"
+  },
+  "DLV-11": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 12",
+   "担当": "FE-1"
+  },
+  "DLV-12": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 17",
+   "担当": "BE-1"
+  },
+  "DLV-13": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 17",
+   "担当": "BE-3"
+  },
+  "DLV-14": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 23",
+   "担当": "BE-1"
+  },
+  "DLV-15": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 23",
+   "担当": "BE-2"
+  },
+  "DLV-16": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 12",
+   "担当": "BE-1"
+  },
+  "DLV-17": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 26",
+   "担当": "QA-1"
+  },
+  "DLV-18": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 23",
+   "担当": "QA-AUTO"
+  },
+  "DLV-19": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "BE-1"
+  },
+  "DLV-20": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 21",
+   "担当": "QA-2"
+  },
+  "DLV-Q": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "BrSE"
+  },
+  "EPIC-IAM": {
+   "Point": 536,
+   "Hours": 1115,
+   "Sprint": null
+  },
+  "IAM-01": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 02",
+   "担当": "BE-2"
+  },
+  "IAM-02": {
+   "Point": 16,
+   "Hours": 34,
+   "Sprint": "Sprint 02"
+  },
+  "IAM-02-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "BE-1"
+  },
+  "IAM-02-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "BE-3"
+  },
+  "IAM-03": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 03",
+   "担当": "BE-1"
+  },
+  "IAM-04": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 05",
+   "担当": "BE-3"
+  },
+  "IAM-05": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 03",
+   "担当": "BE-2"
+  },
+  "IAM-06": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 03",
+   "担当": "BE-3"
+  },
+  "IAM-07": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 03",
+   "担当": "BE-2"
+  },
+  "IAM-08": {
+   "Point": 21,
+   "Hours": 44,
+   "Sprint": "Sprint 08"
+  },
+  "IAM-08-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 08",
+   "担当": "BE-2"
+  },
+  "IAM-08-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 08",
+   "担当": "BE-3"
+  },
+  "IAM-09": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 11"
+  },
+  "IAM-09-a": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 11",
+   "担当": "BE-3"
+  },
+  "IAM-09-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 11",
+   "担当": "BE-2"
+  },
+  "IAM-10": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 06",
+   "担当": "BE-1"
+  },
+  "IAM-11": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 11",
+   "担当": "BE-1"
+  },
+  "IAM-12": {
+   "Point": 10,
+   "Hours": 22,
+   "Sprint": "Sprint 07"
+  },
+  "IAM-12-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-3"
+  },
+  "IAM-12-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "QA-AUTO"
+  },
+  "IAM-13": {
+   "Point": 55,
+   "Hours": 114,
+   "Sprint": "Sprint 10"
+  },
+  "IAM-13-a": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 10",
+   "担当": "BE-2"
+  },
+  "IAM-13-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 10",
+   "担当": "BE-3"
+  },
+  "IAM-13-c": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 10",
+   "担当": "BE-1"
+  },
+  "IAM-13-d": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 10",
+   "担当": "QA-AUTO"
+  },
+  "IAM-14": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 03",
+   "担当": "FE-1"
+  },
+  "IAM-15": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 05",
+   "担当": "FE-1"
+  },
+  "IAM-16": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 05",
+   "担当": "FE-2"
+  },
+  "IAM-17": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 03",
+   "担当": "FE-1"
+  },
+  "IAM-18": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 04",
+   "担当": "FE-2"
+  },
+  "IAM-19": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "FE-1"
+  },
+  "IAM-20": {
+   "Point": 18,
+   "Hours": 39,
+   "Sprint": "Sprint 12"
+  },
+  "IAM-20-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 11",
+   "担当": "FE-1"
+  },
+  "IAM-20-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 12",
+   "担当": "FE-1"
+  },
+  "IAM-20-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 12",
+   "担当": "FE-2"
+  },
+  "IAM-21": {
+   "Point": 23,
+   "Hours": 49,
+   "Sprint": "Sprint 13"
+  },
+  "IAM-21-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 13",
+   "担当": "FE-2"
+  },
+  "IAM-21-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 13",
+   "担当": "FE-2"
+  },
+  "IAM-21-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 13",
+   "担当": "FE-1"
+  },
+  "IAM-22": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 13",
+   "担当": "FE-1"
+  },
+  "IAM-23": {
+   "Point": 26,
+   "Hours": 54,
+   "Sprint": "Sprint 11"
+  },
+  "IAM-23-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 11",
+   "担当": "FE-1"
+  },
+  "IAM-23-b": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 11",
+   "担当": "FE-2"
+  },
+  "IAM-24": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 11",
+   "担当": "FE-1"
+  },
+  "IAM-25": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 14",
+   "担当": "QA-1"
+  },
+  "IAM-26": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 13",
+   "担当": "QA-AUTO"
+  },
+  "IAM-27": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 05",
+   "担当": "QA-AUTO"
+  },
+  "IAM-Q": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "BrSE"
+  },
+  "EPIC-INC": {
+   "Point": 452,
+   "Hours": 943,
+   "Sprint": null
+  },
+  "INC-01": {
+   "Point": 10,
+   "Hours": 22,
+   "Sprint": "Sprint 03"
+  },
+  "INC-01-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "BE-1"
+  },
+  "INC-01-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "BE-3"
+  },
+  "INC-02": {
+   "Point": 8,
+   "Hours": 18,
+   "Sprint": "Sprint 07"
+  },
+  "INC-02-a": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 07",
+   "担当": "BE-1"
+  },
+  "INC-02-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-1"
+  },
+  "INC-03": {
+   "Point": 50,
+   "Hours": 104,
+   "Sprint": "Sprint 22"
+  },
+  "INC-03-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 21",
+   "担当": "BE-2"
+  },
+  "INC-03-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 21",
+   "担当": "BE-3"
+  },
+  "INC-03-c": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 21",
+   "担当": "BE-1"
+  },
+  "INC-03-d": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 22",
+   "担当": "QA-AUTO"
+  },
+  "INC-04": {
+   "Point": 84,
+   "Hours": 173,
+   "Sprint": "Sprint 13"
+  },
+  "INC-04-a": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 12",
+   "担当": "BE-3"
+  },
+  "INC-04-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 08",
+   "担当": "BE-1"
+  },
+  "INC-04-c": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 13",
+   "担当": "BE-2"
+  },
+  "INC-04-d": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 08",
+   "担当": "QA-AUTO"
+  },
+  "INC-05": {
+   "Point": 13,
+   "Hours": 28,
+   "Sprint": "Sprint 14"
+  },
+  "INC-05-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 14",
+   "担当": "FE-1"
+  },
+  "INC-05-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 14",
+   "担当": "FE-2"
+  },
+  "INC-06": {
+   "Point": 18,
+   "Hours": 39,
+   "Sprint": "Sprint 14"
+  },
+  "INC-06-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 14",
+   "担当": "FE-1"
+  },
+  "INC-06-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 14",
+   "担当": "FE-2"
+  },
+  "INC-06-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 14",
+   "担当": "FE-1"
+  },
+  "INC-07": {
+   "Point": 18,
+   "Hours": 39,
+   "Sprint": "Sprint 14"
+  },
+  "INC-07-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 14",
+   "担当": "FE-1"
+  },
+  "INC-07-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 14",
+   "担当": "FE-2"
+  },
+  "INC-07-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 14",
+   "担当": "FE-1"
+  },
+  "INC-08": {
+   "Point": 13,
+   "Hours": 28,
+   "Sprint": "Sprint 15"
+  },
+  "INC-08-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 15",
+   "担当": "FE-1"
+  },
+  "INC-08-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 15",
+   "担当": "FE-2"
+  },
+  "INC-09": {
+   "Point": 23,
+   "Hours": 49,
+   "Sprint": "Sprint 23"
+  },
+  "INC-09-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 23",
+   "担当": "FE-1"
+  },
+  "INC-09-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 23",
+   "担当": "FE-2"
+  },
+  "INC-09-c": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 23",
+   "担当": "FE-1"
+  },
+  "INC-10": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 22",
+   "担当": "INFRA"
+  },
+  "INC-11": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 14",
+   "担当": "BE-3"
+  },
+  "INC-12": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 13",
+   "担当": "BE-1"
+  },
+  "INC-13": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 14",
+   "担当": "BE-1"
+  },
+  "INC-14": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 23",
+   "担当": "BE-2"
+  },
+  "INC-15": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 24",
+   "担当": "QA-2"
+  },
+  "INC-16": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 25"
+  },
+  "INC-16-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 24",
+   "担当": "QA-AUTO"
+  },
+  "INC-16-b": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 25",
+   "担当": "QA-AUTO"
+  },
+  "INC-17": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 17",
+   "担当": "QA-1"
+  },
+  "INC-Q": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "BrSE"
+  },
+  "EPIC-INF": {
+   "Point": 123,
+   "Hours": 263,
+   "Sprint": null
+  },
+  "INF-01": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "INFRA"
+  },
+  "INF-02": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "INFRA"
+  },
+  "INF-03": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 02",
+   "担当": "INFRA"
+  },
+  "INF-04": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 03",
+   "担当": "INFRA"
+  },
+  "INF-05": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "INFRA"
+  },
+  "INF-06": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 03",
+   "担当": "INFRA"
+  },
+  "INF-07": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "INFRA"
+  },
+  "INF-08": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 05",
+   "担当": "INFRA"
+  },
+  "INF-09": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "INFRA"
+  },
+  "INF-10": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "INFRA"
+  },
+  "INF-11": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 05",
+   "担当": "INFRA"
+  },
+  "INF-12": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 05",
+   "担当": "INFRA"
+  },
+  "INF-13": {
+   "Point": 1,
+   "Hours": 3,
+   "Sprint": "Sprint 09",
+   "担当": "QA-AUTO"
+  },
+  "INF-14": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 09",
+   "担当": "QA-2"
+  },
+  "INF-15": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 10",
+   "担当": "INFRA"
+  },
+  "INF-16": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 10",
+   "担当": "QA-1"
+  },
+  "INF-Q": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "BrSE"
+  },
+  "EPIC-LOT": {
+   "Point": 294,
+   "Hours": 610,
+   "Sprint": null
+  },
+  "LOT-01": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "BE-1"
+  },
+  "LOT-02": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 07",
+   "担当": "BE-3"
+  },
+  "LOT-03": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 18",
+   "担当": "BE-2"
+  },
+  "LOT-04": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 18",
+   "担当": "BE-3"
+  },
+  "LOT-05": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 06",
+   "担当": "BE-3"
+  },
+  "LOT-06": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "BE-2"
+  },
+  "LOT-07": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 04",
+   "担当": "BE-1"
+  },
+  "LOT-08": {
+   "Point": 21,
+   "Hours": 44,
+   "Sprint": "Sprint 19"
+  },
+  "LOT-08-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "BE-2"
+  },
+  "LOT-08-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 09",
+   "担当": "QA-AUTO"
+  },
+  "LOT-09": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 21",
+   "担当": "FE-1"
+  },
+  "LOT-10": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 18",
+   "担当": "FE-1"
+  },
+  "LOT-11": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "FE-2"
+  },
+  "LOT-12": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 21",
+   "担当": "FE-2"
+  },
+  "LOT-13": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 24",
+   "担当": "FE-1"
+  },
+  "LOT-14": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 04",
+   "担当": "FE-2"
+  },
+  "LOT-15": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "FE-2"
+  },
+  "LOT-16": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 22",
+   "担当": "QA-1"
+  },
+  "LOT-17": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 21",
+   "担当": "QA-AUTO"
+  },
+  "LOT-Q": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "BrSE"
+  },
+  "EPIC-TRD": {
+   "Point": 269,
+   "Hours": 561,
+   "Sprint": null
+  },
+  "TRD-01": {
+   "Point": 18,
+   "Hours": 39,
+   "Sprint": "Sprint 07"
+  },
+  "TRD-01-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-1"
+  },
+  "TRD-01-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 07",
+   "担当": "BE-2"
+  },
+  "TRD-01-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-3"
+  },
+  "TRD-02": {
+   "Point": 26,
+   "Hours": 54,
+   "Sprint": "Sprint 18"
+  },
+  "TRD-02-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 18",
+   "担当": "BE-1"
+  },
+  "TRD-02-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 17",
+   "担当": "QA-AUTO"
+  },
+  "TRD-03": {
+   "Point": 21,
+   "Hours": 44,
+   "Sprint": "Sprint 19"
+  },
+  "TRD-03-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "BE-2"
+  },
+  "TRD-03-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 17",
+   "担当": "QA-AUTO"
+  },
+  "TRD-04": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 14",
+   "担当": "BE-1"
+  },
+  "TRD-05": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "BE-3"
+  },
+  "TRD-06": {
+   "Point": 21,
+   "Hours": 45,
+   "Sprint": "Sprint 22"
+  },
+  "TRD-06-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 21",
+   "担当": "FE-1"
+  },
+  "TRD-06-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 21",
+   "担当": "FE-2"
+  },
+  "TRD-06-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 22",
+   "担当": "FE-2"
+  },
+  "TRD-07": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 15",
+   "担当": "FE-2"
+  },
+  "TRD-08": {
+   "Point": 13,
+   "Hours": 28,
+   "Sprint": "Sprint 16"
+  },
+  "TRD-08-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 16",
+   "担当": "FE-1"
+  },
+  "TRD-08-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 16",
+   "担当": "FE-1"
+  },
+  "TRD-09": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 25",
+   "担当": "FE-1"
+  },
+  "TRD-10": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 19",
+   "担当": "FE-1"
+  },
+  "TRD-11": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 23",
+   "担当": "QA-2"
+  },
+  "TRD-12": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 22",
+   "担当": "QA-AUTO"
+  },
+  "TRD-13": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 27",
+   "担当": "QA-2"
+  },
+  "TRD-Q": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "BrSE"
+  },
+  "EPIC-NTF": {
+   "Point": 147,
+   "Hours": 306,
+   "Sprint": null
+  },
+  "NTF-01": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 04",
+   "担当": "BE-1"
+  },
+  "NTF-02": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 06",
+   "担当": "BE-1"
+  },
+  "NTF-03": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 07",
+   "担当": "BE-2"
+  },
+  "NTF-04": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 06",
+   "担当": "BE-3"
+  },
+  "NTF-05": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 11",
+   "担当": "BE-1"
+  },
+  "NTF-06": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 12",
+   "担当": "BE-3"
+  },
+  "NTF-07": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 06",
+   "担当": "FE-1"
+  },
+  "NTF-08": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 11",
+   "担当": "FE-2"
+  },
+  "NTF-09": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 12",
+   "担当": "FE-1"
+  },
+  "NTF-10": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 12",
+   "担当": "QA-1"
+  },
+  "NTF-11": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 07",
+   "担当": "QA-AUTO"
+  },
+  "NTF-Q": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 04",
+   "担当": "BrSE"
+  },
+  "EPIC-OFF": {
+   "Point": 176,
+   "Hours": 364,
+   "Sprint": null
+  },
+  "OFF-01": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 07",
+   "担当": "BE-1"
+  },
+  "OFF-02": {
+   "Point": 42,
+   "Hours": 87,
+   "Sprint": "Sprint 20"
+  },
+  "OFF-02-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 19",
+   "担当": "BE-3"
+  },
+  "OFF-02-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 19",
+   "担当": "BE-1"
+  },
+  "OFF-02-c": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "QA-AUTO"
+  },
+  "OFF-03": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "FE-2"
+  },
+  "OFF-04": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 21",
+   "担当": "FE-2"
+  },
+  "OFF-05": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 22",
+   "担当": "FE-1"
+  },
+  "OFF-06": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "BE-1"
+  },
+  "OFF-07": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "BE-2"
+  },
+  "OFF-08": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 22",
+   "担当": "QA-1"
+  },
+  "OFF-09": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 03",
+   "担当": "INFRA"
+  },
+  "OFF-Q": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 05",
+   "担当": "BrSE"
+  },
+  "EPIC-OPS": {
+   "Point": 101,
+   "Hours": 211,
+   "Sprint": null
+  },
+  "OPS-01": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 04",
+   "担当": "BE-1"
+  },
+  "OPS-02": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 04",
+   "担当": "BE-1"
+  },
+  "OPS-03": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 07",
+   "担当": "BE-1"
+  },
+  "OPS-05": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 05",
+   "担当": "BE-3"
+  },
+  "OPS-06": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 12",
+   "担当": "BE-1"
+  },
+  "OPS-07": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 12",
+   "担当": "FE-2"
+  },
+  "OPS-08": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 12",
+   "担当": "QA-2"
+  },
+  "OPS-09": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 06",
+   "担当": "QA-AUTO"
+  },
+  "OPS-Q": {
+   "Point": 2,
+   "Hours": 5,
+   "Sprint": "Sprint 05",
+   "担当": "BrSE"
+  },
+  "EPIC-RPT": {
+   "Point": 571,
+   "Hours": 1184,
+   "Sprint": null
+  },
+  "RPT-01": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 10",
+   "担当": "FE-1"
+  },
+  "RPT-02": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 09",
+   "担当": "FE-1"
+  },
+  "RPT-03": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 05",
+   "担当": "BE-2"
+  },
+  "RPT-04": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 09",
+   "担当": "BE-1"
+  },
+  "RPT-05": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 10",
+   "担当": "BE-2"
+  },
+  "RPT-06": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 15",
+   "担当": "BE-1"
+  },
+  "RPT-07": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 26",
+   "担当": "BE-2"
+  },
+  "RPT-08": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 23",
+   "担当": "BE-1"
+  },
+  "RPT-09": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 27",
+   "担当": "BE-3"
+  },
+  "RPT-10": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 14",
+   "担当": "BE-2"
+  },
+  "RPT-11": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 11",
+   "担当": "BE-3"
+  },
+  "RPT-12": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 15",
+   "担当": "BE-3"
+  },
+  "RPT-13": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 27",
+   "担当": "BE-2"
+  },
+  "RPT-14": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 11",
+   "担当": "BE-2"
+  },
+  "RPT-15": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 07",
+   "担当": "BE-3"
+  },
+  "RPT-16": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 04",
+   "担当": "DESIGN"
+  },
+  "RPT-17": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 15",
+   "担当": "FE-1"
+  },
+  "RPT-18": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 15",
+   "担当": "FE-2"
+  },
+  "RPT-19": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 26",
+   "担当": "FE-2"
+  },
+  "RPT-20": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 26",
+   "担当": "FE-1"
+  },
+  "RPT-21": {
+   "Point": 18,
+   "Hours": 39,
+   "Sprint": "Sprint 27"
+  },
+  "RPT-21-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 27",
+   "担当": "FE-1"
+  },
+  "RPT-21-b": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 27",
+   "担当": "FE-2"
+  },
+  "RPT-21-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 27",
+   "担当": "FE-1"
+  },
+  "RPT-22": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 27",
+   "担当": "FE-2"
+  },
+  "RPT-23": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 23",
+   "担当": "FE-2"
+  },
+  "RPT-24": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 15",
+   "担当": "FE-1"
+  },
+  "RPT-25": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 11",
+   "担当": "FE-1"
+  },
+  "RPT-26": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 16",
+   "担当": "FE-2"
+  },
+  "RPT-27": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 28",
+   "担当": "QA-2"
+  },
+  "RPT-28": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 16",
+   "担当": "QA-1"
+  },
+  "RPT-29": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 27",
+   "担当": "QA-AUTO"
+  },
+  "RPT-30": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 28",
+   "担当": "QA-AUTO"
+  },
+  "RPT-31": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 16",
+   "担当": "QA-2"
+  },
+  "RPT-32": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 28",
+   "担当": "QA-AUTO"
+  },
+  "RPT-Q": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 03",
+   "担当": "BrSE"
+  },
+  "EPIC-STL": {
+   "Point": 670,
+   "Hours": 1392,
+   "Sprint": null
+  },
+  "STL-01": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 03",
+   "担当": "BE-2"
+  },
+  "STL-02": {
+   "Point": 15,
+   "Hours": 33,
+   "Sprint": "Sprint 08"
+  },
+  "STL-02-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 08",
+   "担当": "BE-2"
+  },
+  "STL-02-b": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 08",
+   "担当": "BE-3"
+  },
+  "STL-02-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 08",
+   "担当": "BE-1"
+  },
+  "STL-03": {
+   "Point": 21,
+   "Hours": 44,
+   "Sprint": "Sprint 05"
+  },
+  "STL-03-a": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 05",
+   "担当": "BE-3"
+  },
+  "STL-03-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 05",
+   "担当": "BE-2"
+  },
+  "STL-04": {
+   "Point": 26,
+   "Hours": 54,
+   "Sprint": "Sprint 16"
+  },
+  "STL-04-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 15",
+   "担当": "BE-1"
+  },
+  "STL-04-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 16",
+   "担当": "BE-1"
+  },
+  "STL-05": {
+   "Point": 42,
+   "Hours": 86,
+   "Sprint": "Sprint 21"
+  },
+  "STL-05-a": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 20",
+   "担当": "BE-1"
+  },
+  "STL-05-b": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 21",
+   "担当": "BE-2"
+  },
+  "STL-06": {
+   "Point": 45,
+   "Hours": 93,
+   "Sprint": "Sprint 24"
+  },
+  "STL-06-a": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 21",
+   "担当": "BE-2"
+  },
+  "STL-06-b": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 23",
+   "担当": "BE-2"
+  },
+  "STL-06-c": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 24",
+   "担当": "BE-1"
+  },
+  "STL-07": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 26"
+  },
+  "STL-07-a": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 25",
+   "担当": "BE-3"
+  },
+  "STL-07-b": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 26",
+   "担当": "BE-2"
+  },
+  "STL-08": {
+   "Point": 3,
+   "Hours": 8,
+   "Sprint": "Sprint 17"
+  },
+  "STL-08-a": {
+   "Point": 2,
+   "Hours": 5,
+   "Sprint": "Sprint 17",
+   "担当": "BE-2"
+  },
+  "STL-08-b": {
+   "Point": 1,
+   "Hours": 3,
+   "Sprint": "Sprint 17",
+   "担当": "BE-2"
+  },
+  "STL-09": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 17",
+   "担当": "BE-2"
+  },
+  "STL-10": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 17",
+   "担当": "BE-3"
+  },
+  "STL-11": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 22",
+   "担当": "BE-3"
+  },
+  "STL-12": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 23",
+   "担当": "BE-3"
+  },
+  "STL-13": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 25",
+   "担当": "BE-3"
+  },
+  "STL-14": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 25",
+   "担当": "BE-2"
+  },
+  "STL-15": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 16",
+   "担当": "BE-2"
+  },
+  "STL-16": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 17",
+   "担当": "BE-2"
+  },
+  "STL-17": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 17",
+   "担当": "BE-2"
+  },
+  "STL-18": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 17",
+   "担当": "FE-2"
+  },
+  "STL-19": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 17",
+   "担当": "FE-1"
+  },
+  "STL-20": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 18",
+   "担当": "FE-1"
+  },
+  "STL-21": {
+   "Point": 21,
+   "Hours": 45,
+   "Sprint": "Sprint 22"
+  },
+  "STL-21-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 22",
+   "担当": "FE-2"
+  },
+  "STL-21-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 22",
+   "担当": "FE-1"
+  },
+  "STL-21-c": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 22",
+   "担当": "FE-2"
+  },
+  "STL-22": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 23",
+   "担当": "FE-2"
+  },
+  "STL-23": {
+   "Point": 23,
+   "Hours": 49,
+   "Sprint": "Sprint 24"
+  },
+  "STL-23-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 23",
+   "担当": "FE-1"
+  },
+  "STL-23-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 24",
+   "担当": "FE-2"
+  },
+  "STL-23-c": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 23",
+   "担当": "FE-1"
+  },
+  "STL-24": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 26",
+   "担当": "FE-2"
+  },
+  "STL-25": {
+   "Point": 8,
+   "Hours": 17,
+   "Sprint": "Sprint 16",
+   "担当": "FE-2"
+  },
+  "STL-26": {
+   "Point": 21,
+   "Hours": 45,
+   "Sprint": "Sprint 24"
+  },
+  "STL-26-a": {
+   "Point": 5,
+   "Hours": 11,
+   "Sprint": "Sprint 22",
+   "担当": "FE-2"
+  },
+  "STL-26-b": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 24",
+   "担当": "FE-2"
+  },
+  "STL-26-c": {
+   "Point": 3,
+   "Hours": 7,
+   "Sprint": "Sprint 22",
+   "担当": "FE-1"
+  },
+  "STL-27": {
+   "Point": 34,
+   "Hours": 70,
+   "Sprint": "Sprint 27",
+   "担当": "QA-1"
+  },
+  "STL-28": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 18",
+   "担当": "QA-AUTO"
+  },
+  "STL-29": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 24",
+   "担当": "QA-1"
+  },
+  "STL-30": {
+   "Point": 21,
+   "Hours": 43,
+   "Sprint": "Sprint 24",
+   "担当": "QA-1"
+  },
+  "STL-Q": {
+   "Point": 13,
+   "Hours": 27,
+   "Sprint": "Sprint 04",
+   "担当": "BrSE"
+  }
+ },
+ "load": {
+  "1": {
+   "FE-1": 27,
+   "FE-2": 30,
+   "BE-1": 30,
+   "BE-2": 30,
+   "BE-3": 30,
+   "INFRA": 30,
+   "BrSE": 30
+  },
+  "2": {
+   "FE-1": 13,
+   "BE-1": 45,
+   "BE-2": 45,
+   "BE-3": 45,
+   "QA-AUTO": 14,
+   "INFRA": 45,
+   "BrSE": 45
+  },
+  "3": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-AUTO": 11,
+   "INFRA": 44,
+   "BrSE": 60
+  },
+  "4": {
+   "FE-1": 38,
+   "FE-2": 35,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 43,
+   "QA-2": 27,
+   "DESIGN": 11,
+   "INFRA": 60,
+   "BrSE": 60
+  },
+  "5": {
+   "FE-1": 17,
+   "FE-2": 27,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-AUTO": 60,
+   "INFRA": 36,
+   "BrSE": 36
+  },
+  "6": {
+   "FE-1": 17,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-AUTO": 10
+  },
+  "7": {
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-AUTO": 60
+  },
+  "8": {
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-AUTO": 60
+  },
+  "9": {
+   "FE-1": 43,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 17,
+   "QA-2": 7,
+   "QA-AUTO": 14,
+   "INFRA": 60
+  },
+  "10": {
+   "FE-1": 17,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 17,
+   "QA-AUTO": 27,
+   "INFRA": 1
+  },
+  "11": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60
+  },
+  "12": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 43,
+   "QA-2": 27
+  },
+  "13": {
+   "FE-1": 45,
+   "FE-2": 36,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 60,
+   "QA-AUTO": 43
+  },
+  "14": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 10
+  },
+  "15": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60
+  },
+  "16": {
+   "FE-1": 27,
+   "FE-2": 17,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 27,
+   "QA-2": 43,
+   "QA-AUTO": 60
+  },
+  "17": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 43,
+   "QA-AUTO": 60
+  },
+  "18": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-AUTO": 60
+  },
+  "19": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 60,
+   "QA-AUTO": 60
+  },
+  "20": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 10,
+   "QA-AUTO": 30
+  },
+  "21": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 60,
+   "QA-2": 27,
+   "QA-AUTO": 60
+  },
+  "22": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 43,
+   "QA-2": 60,
+   "QA-AUTO": 53,
+   "INFRA": 17
+  },
+  "23": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 27,
+   "BE-3": 37,
+   "QA-1": 60,
+   "QA-2": 60,
+   "QA-AUTO": 43
+  },
+  "24": {
+   "FE-1": 60,
+   "FE-2": 60,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 60,
+   "QA-1": 53,
+   "QA-2": 60,
+   "QA-AUTO": 60
+  },
+  "25": {
+   "FE-1": 60,
+   "FE-2": 39,
+   "BE-1": 60,
+   "BE-2": 60,
+   "BE-3": 57,
+   "QA-1": 60,
+   "QA-2": 13,
+   "QA-AUTO": 10
+  },
+  "26": {
+   "FE-1": 22,
+   "FE-2": 60,
+   "BE-1": 12,
+   "BE-2": 26,
+   "BE-3": 60,
+   "QA-1": 60,
+   "QA-2": 60
+  },
+  "27": {
+   "FE-1": 22,
+   "FE-2": 28,
+   "BE-1": 10,
+   "BE-2": 43,
+   "QA-1": 20,
+   "QA-2": 60,
+   "QA-AUTO": 60
+  },
+  "28": {
+   "QA-1": 20,
+   "QA-AUTO": 17
+  },
+  "29": {},
+  "30": {}
+ }
+}
