@@ -17,7 +17,7 @@
 | GitHub Project | <https://github.com/users/duongnh-0155/projects/1> |
 | SWP 採点レポート（HTML） | [swp-report/swp-report.html](swp-report/swp-report.html) |
 
-リポジトリ・Project・Issue は、ログインしていない状態（cookie なしの HTTP 取得）で表示できることを 2026-10-14 に確認した。
+リポジトリ・Project は、ブラウザのシークレットウィンドウ（未ログイン）で表示できることを 2026-10-19 に確認した（2026-10-14 に cookie なしの HTTP 取得でも確認済み）。
 
 ## リポジトリ構成
 
